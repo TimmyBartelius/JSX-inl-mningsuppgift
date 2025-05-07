@@ -3,9 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./Header.css";
 const Header = () => {
   const navigate = useNavigate();
-  const handleClickProducts = () => {
-    navigate("./src/pages/allProducts");
-  };
+
   const handleClickLogo = () => {
     navigate("./src/pages/Home");
   };
@@ -33,10 +31,39 @@ const Header = () => {
           />
         </nav>
       </section>
-      <div id="allProductsBtn">
-        <button id="productsBtn" onClick={handleClickProducts}>
-          PRODUKTER
-        </button>
+      <div id="allProductsBtns">
+        <nav>
+          <img
+            className="picForCat"
+            src="./src/assets/Sommarbild.PNG"
+            alt="Sommarleksaker"
+          />
+          <p className="categories">Sommarleksaker</p>
+        </nav>
+        <nav>
+          <img
+            className="picForCat"
+            src="./src/assets/Vinterbild.PNG"
+            alt="Vinterleksaker"
+          />
+          <p className="categories">Vinterleksaker</p>
+        </nav>
+        <nav>
+          <img
+            className="picForCat"
+            src="./src/assets/Brädspelbild.PNG"
+            alt="Brädspel"
+          />
+          <p className="categories">Brädspel</p>
+        </nav>
+        <nav>
+          <img
+            className="picForCat"
+            src="./src/assets/Batteridrivna.PNG"
+            alt="Batteridrivna leksaker"
+          />
+          <p className="categories">Batteridrivet</p>
+        </nav>
       </div>
     </header>
   );

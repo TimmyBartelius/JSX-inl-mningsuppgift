@@ -17,23 +17,16 @@ body {
 #cartLogo {
   cursor: pointer;
 }
-#allProductsBtn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
+#allProductsBtns {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  justify-items: center;
 }
-#productsBtn {
-  height: 80px;
-  width: 300px;
-  background-color: rgb(115, 220, 255);
-  border-style: none;
-  border-radius: 10px;
-  font-size: x-large;
-  font-family: "Comic Sans MS";
-  color: rgb(255, 255, 255);
-  cursor: pointer;
+.picForCat {
+  border: dashed 3px rgb(255, 255, 255);
 }
-#productsBtn:hover {
-  background-color: rgb(65, 208, 255);
+.categories {
+  color: white;
 }
