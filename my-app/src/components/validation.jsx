@@ -1,5 +1,3 @@
-import { userSchema } from "../utils/validation";
-
 const validate = () => {
   const result = userSchema.validate({
     email: "test@test.com",
