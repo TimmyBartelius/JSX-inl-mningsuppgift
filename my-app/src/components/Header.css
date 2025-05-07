@@ -34,3 +34,6 @@ body {
   color: rgb(255, 255, 255);
   cursor: pointer;
 }
+#productsBtn:hover {
+  background-color: rgb(65, 208, 255);
+}

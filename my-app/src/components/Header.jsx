@@ -44,7 +44,9 @@ const Header = () => {
 
 export default Header;
 
-//1. Headern behöver logga, cart, Produkt-knapp samt blå bakgrund
+//1. Headern behöver logga, cart, Produkt-knapp samt blå bakgrund (CHECK)
 //2. Logga skall visa sig tryckbar, på klick skall den leda till "hem"-skärmen, alltså startsidan
 //3. Cart skall visa sig tryckbar, på klick skall den leda till "kundvagnen"
 //4. Produkter-knappen skall leda till produkt-sidan och startar som standard på "alla produkter"
+
+//GLÖM INTE ROUTING - allt annat klart
