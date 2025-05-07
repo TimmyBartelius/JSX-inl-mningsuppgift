@@ -1,20 +1,36 @@
 header {
   width: 100%;
-  height: 100%;
-  background-color: lightblue;
+  background-color: rgb(4, 104, 217);
+  margin: 0;
+  padding-top: 10px;
+}
+body {
+  margin: 0;
 }
 #allLogosHeader {
   display: flex;
   justify-content: space-around;
 }
 #logo {
-  padding: 10px;
+  cursor: pointer;
 }
 #cartLogo {
-  padding: 10px;
+  cursor: pointer;
 }
 #allProductsBtn {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100px;
+}
+#productsBtn {
+  height: 80px;
+  width: 300px;
+  background-color: rgb(115, 220, 255);
+  border-style: none;
+  border-radius: 10px;
+  font-size: x-large;
+  font-family: "Comic Sans MS";
+  color: rgb(255, 255, 255);
+  cursor: pointer;
 }
