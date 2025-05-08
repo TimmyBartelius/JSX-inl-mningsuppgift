@@ -1,9 +1,12 @@
 import React from "react";
 import "../components/Home.css";
+import Header from "/src/components/Header";
+import Footer from "/src/components/Footer";
 
-function Home() {
+export default function Home() {
   return (
     <main>
+      <Header />
       <div>
         <h2 id="headline">Våra produkter</h2>
       </div>
@@ -37,11 +40,10 @@ function Home() {
         </p>
         <h3>129 KR</h3>
       </div>
+      <Footer />
     </main>
   );
 }
-
-export default Home;
 
 //1. Header på toppen (CHECK)
 

@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+function Cart() {}
+export default Cart;
 //1. Header,
 //2. Footer
 //3. Rutnät för 20 varor

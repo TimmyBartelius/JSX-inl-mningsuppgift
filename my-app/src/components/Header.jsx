@@ -5,10 +5,10 @@ const Header = () => {
   const navigate = useNavigate();
 
   const handleClickLogo = () => {
-    navigate("./src/pages/Home");
+    navigate("/");
   };
   const handleClickCart = () => {
-    navigate("./src/pages/Cart");
+    navigate("./Cart");
   };
   //TODO: Gör handleclick för sommar, vinter, bräd och batterileksaker
   return (

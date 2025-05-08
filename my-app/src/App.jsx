@@ -1,14 +1,16 @@
-//import { Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Footer from "./components/Footer";
+import Cart from "./pages/Cart";
 
 export default function App() {
   return (
     <main>
-      <Header />
-      <Home />
-      <Footer />
+      <HashRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Cart" element={<Cart />} />
+        </Routes>
+      </HashRouter>
     </main>
   );
 }
