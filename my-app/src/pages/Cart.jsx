@@ -1,8 +1,4 @@
-import {useState} from 'react';
-
-export async function(()=>{
-    const 
-})
+import { useState } from "react";
 
 //1. Header,
 //2. Footer
