@@ -17,10 +17,18 @@
   padding: 10px;
 }
 #addBtn {
+  background-color: rgb(59, 255, 25);
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
   height: 3rem;
   width: 5rem;
 }
 #remBtn {
+  background-color: rgb(255, 25, 25);
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
   height: 3rem;
   width: 5rem;
 }

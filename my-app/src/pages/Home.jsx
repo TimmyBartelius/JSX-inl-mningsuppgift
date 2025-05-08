@@ -13,8 +13,23 @@ function Home() {
         <button id="remBtn">TA BORT</button>
       </div>
       <div className="forProducts" id="textSquareProduct">
-        <p>TEXT</p>
-        <h3>PRIS</h3>
+        <p>
+          Vattenpistol TurboJet 3000 Kraftfull vattenpistol med lång räckvidd,
+          perfekt för varma sommardagar.
+        </p>
+        <h3>129 KR</h3>
+      </div>
+      <div className="forProducts" id="productDisplay">
+        <img src="src/assets/Vattenpistolen.PNG" alt="Vattenpistolen" />
+        <button id="addBtn">LÄGG TILL</button>
+        <button id="remBtn">TA BORT</button>
+      </div>
+      <div className="forProducts" id="textSquareProduct">
+        <p>
+          Vattenpistol TurboJet 3000 Kraftfull vattenpistol med lång räckvidd,
+          perfekt för varma sommardagar.
+        </p>
+        <h3>129 KR</h3>
       </div>
     </main>
   );
