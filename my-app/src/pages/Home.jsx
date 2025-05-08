@@ -4,27 +4,33 @@ import "../components/Home.css";
 function Home() {
   return (
     <main>
-      <section>
+      <div>
         <h2 id="headline">Våra produkter</h2>
-      </section>
-      <div className="forProducts" id="productDisplay">
+      </div>
+      <div id="productDisplay">
         <img src="src/assets/Vattenpistolen.PNG" alt="Vattenpistolen" />
         <button id="addBtn">LÄGG TILL</button>
         <button id="remBtn">TA BORT</button>
-      </div>
-      <div className="forProducts" id="textSquareProduct">
         <p>
           Vattenpistol TurboJet 3000 Kraftfull vattenpistol med lång räckvidd,
           perfekt för varma sommardagar.
         </p>
         <h3>129 KR</h3>
       </div>
-      <div className="forProducts" id="productDisplay">
+      <div id="productDisplay">
         <img src="src/assets/Vattenpistolen.PNG" alt="Vattenpistolen" />
         <button id="addBtn">LÄGG TILL</button>
         <button id="remBtn">TA BORT</button>
+        <p>
+          Vattenpistol TurboJet 3000 Kraftfull vattenpistol med lång räckvidd,
+          perfekt för varma sommardagar.
+        </p>
+        <h3>129 KR</h3>
       </div>
-      <div className="forProducts" id="textSquareProduct">
+      <div id="productDisplay">
+        <img src="src/assets/Vattenpistolen.PNG" alt="Vattenpistolen" />
+        <button id="addBtn">LÄGG TILL</button>
+        <button id="remBtn">TA BORT</button>
         <p>
           Vattenpistol TurboJet 3000 Kraftfull vattenpistol med lång räckvidd,
           perfekt för varma sommardagar.
