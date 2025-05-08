@@ -10,7 +10,7 @@ const Header = () => {
   const handleClickCart = () => {
     navigate("./src/pages/Cart");
   };
-
+  //TODO: Gör handleclick för sommar, vinter, bräd och batterileksaker
   return (
     <header>
       <section id="allLogosHeader">
