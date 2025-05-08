@@ -7,7 +7,7 @@ export default function CardList() {
 
   useEffect(() => {
     const fetchCards = async () => {
-      const querySnapshot = await getDocs(collection(db, "Vattenpistolen"));
+      const querySnapshot = await getDocs(collection(db, "AllToys"));
       const itemList = querySnapshot.docs.map((doc) => doc.data());
       setCard(itemList);
     };
