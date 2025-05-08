@@ -1,45 +1,17 @@
 import React from "react";
 import "../components/Home.css";
-import Header from "/src/components/Header";
-import Footer from "/src/components/Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import CardList from "../components/Firebase/cardlist-firebase";
 
 export default function Home() {
   return (
     <main>
       <Header />
       <div>
-        <h2 id="headline">Våra produkter</h2>
+        <h2 className="headline">Våra produkter</h2>
       </div>
-      <div id="productDisplay">
-        <img src="src/assets/Vattenpistolen.PNG" alt="Vattenpistolen" />
-        <button id="addBtn">LÄGG TILL</button>
-        <button id="remBtn">TA BORT</button>
-        <p>
-          Vattenpistol TurboJet 3000 Kraftfull vattenpistol med lång räckvidd,
-          perfekt för varma sommardagar.
-        </p>
-        <h3>129 KR</h3>
-      </div>
-      <div id="productDisplay">
-        <img src="src/assets/Vattenpistolen.PNG" alt="Vattenpistolen" />
-        <button id="addBtn">LÄGG TILL</button>
-        <button id="remBtn">TA BORT</button>
-        <p>
-          Vattenpistol TurboJet 3000 Kraftfull vattenpistol med lång räckvidd,
-          perfekt för varma sommardagar.
-        </p>
-        <h3>129 KR</h3>
-      </div>
-      <div id="productDisplay">
-        <img src="src/assets/Vattenpistolen.PNG" alt="Vattenpistolen" />
-        <button id="addBtn">LÄGG TILL</button>
-        <button id="remBtn">TA BORT</button>
-        <p>
-          Vattenpistol TurboJet 3000 Kraftfull vattenpistol med lång räckvidd,
-          perfekt för varma sommardagar.
-        </p>
-        <h3>129 KR</h3>
-      </div>
+      <CardList />
       <Footer />
     </main>
   );
@@ -48,6 +20,10 @@ export default function Home() {
 //1. Header på toppen (CHECK)
 
 //2. Produkter i ett rutnät (krav för G) 1 rad när skärmen är smal, 2 när det går.
+
+//2B) Använd den ItemList-komponent som vi diskuterade tidigare för att hämta och visa datan. När du har lagt till data i Firestore, kommer getDocs-funktionen i ItemList-komponenten att hämta denna data och rendera listan i din React-applikation.
+
+//2C) ItemList-komponent: Genom att importera och använda ItemList-komponenten i din Home-komponent, kommer du att hämta och visa listan med produkter från Firestore. Dynamisk rendering: ItemList hanterar datainsamlingen och rendering, så du behöver inte hårdkoda någon JSON-data direkt i HTML. Detta sätt att strukturera din kod gör det mer flexibelt och underhållbart, eftersom du kan ändra eller uppdatera datan direkt i Firestore utan att behöva ändra din React-kod.
 
 //3. Bild på produkt, lägg-till/ta-bort till höger om bilden, kort beskrivning av varan under och pris i stor text.
 
