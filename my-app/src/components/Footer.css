@@ -23,3 +23,12 @@
   width: 100px;
   margin-left: 230px;
 }
+
+@media (max-width: 400px) {
+  #allProductsBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+}

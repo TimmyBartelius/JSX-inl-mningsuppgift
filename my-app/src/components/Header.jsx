@@ -39,6 +39,7 @@ const Header = () => {
             alt="Sommarleksaker"
           />
           <p className="categories">Sommarleksaker</p>
+          <p className="hidden-categories-text">SOMMAR</p>
         </nav>
         <nav>
           <img
@@ -47,6 +48,7 @@ const Header = () => {
             alt="Vinterleksaker"
           />
           <p className="categories">Vinterleksaker</p>
+          <p className="hidden-categories-text">VINTER</p>
         </nav>
         <nav>
           <img
@@ -55,6 +57,7 @@ const Header = () => {
             alt="Brädspel"
           />
           <p className="categories">Brädspel</p>
+          <p className="hidden-categories-text">BRÄD</p>
         </nav>
         <nav>
           <img
@@ -63,6 +66,7 @@ const Header = () => {
             alt="Batteridrivna leksaker"
           />
           <p className="categories">Batteridrivet</p>
+          <p className="hidden-categories-text">BATTERI</p>
         </nav>
       </div>
     </header>
